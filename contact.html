@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- saved from url=(0014)about:internet -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="HandheldFriendly" content="True"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="format-detection" content="address=no"/>
+	<meta name="x-rim-auto-match" content="none" forua="true">
+	<title>Contacts</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/StyleContact.css">
+	<link rel="stylesheet" type="text/css" href="css/StyleCommon.css">
+</head>
+<body>
+	<header>
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="img/contactright.jpg" alt="Первый слайд">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/contactcenter.jpg" alt="Второй слайд">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/contactleft.jpg" alt="Третий слайд">
+		    </div>
+		  </div>
+		</div>
+		<div class="nav">
+			<div class="logo">
+				<img src="img/logos.png" alt="logo">
+				<span>Waxom</span>
+			</div>
+			<div class="menu">
+				<a href="index.html">
+				<img src="img/menu.png" alt="menuicon">
+				<span>Menu</span>
+				</a>
+			</div>
+		</div>
+	</header>
+	<section class="map container">
+		<div id="preloader">
+			<img src="img/map.jpg" alt="">
+		</div>
+		<div id="content">
+			<iframe onload="test();" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.570593998528!2d144.95590661428523!3d-37.82352584237302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d52d5a34589%3A0xedd795a14e4e9758!2sCrown+Melbourne!5e0!3m2!1sru!2sby!4v1553247738208" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</section>
+	<section class="container contact">
+		<div class="grid-item grid-item1">
+			<h3>Get in Touch</h3>
+			<ul>
+				<li>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum notare quam littera.</li>
+				<li class="tochka">Qaro, Street Name 6901, Melbourne Australia</li>
+				<li class="tel">0123 456 789</li>
+				<li class="mail"><a name="support"></a>support@sitename.com</li>
+			</ul>
+		</div>
+		<div class="grid-item grid-item2">
+			<form method="post" action="http://fe.it-academy.by/TestForm.php" target="_blank">
+				<h3>Contact Us</h3>
+				<span>Enter your name</span>
+				<input type="text" name="name" class="form-control" placeholder="John Smith">
+				<span>Enter your tel.number</span>
+				<input type="text" class="form-control" name="tel" placeholder="+0123 894 264"><br>
+				<input type="submit" class="btn btn-outline-secondary" value="OK">
+			</form>
+		</div>
+		<div class="recentposts clearfix">
+			<h3>Recent posts</h3>
+			<ul>
+				<li>
+					<img src="img/boots.png" alt="boots">
+					<div>
+						<div class="calendar">
+							<span class="data">30</span>
+							<span class="month">Sep.</span>
+						</div>
+					<h4>Lorem ipsum dolor sit amet</h4>
+					<span class="rm">Read More</span>
+					</div>
+				</li>
+				<li>
+					<img src="img/hands.png" alt="hands">
+					<div>
+						<div class="calendar">
+							<span class="data">30</span>
+							<span class="month">Sep.</span>
+						</div>
+					<h4>Lorem ipsum dolor sit amet</h4>
+					<span>Read More</span>
+					</div>
+				</li>
+				<li>
+					<img src="img/ship.png" alt="ships">
+					<div>
+						<div class="calendar">
+							<span class="data">30</span>
+							<span class="month">Sep.</span>
+						</div>
+					<h4>Lorem ipsum dolor sit amet</h4>
+					<span>Read More</span>
+					</div>
+				</li>
+			</ul>
+		</div>	
+	</section>
+	<section class="reply container">
+		<form method="post" action="http://fe.it-academy.by/TestForm.php" target="_blank">
+			<h2>Leave reply:</h2>
+			<textarea class="Fillcomment form-control" name="textreply" placeholder="Your comment..."></textarea>
+			<input type="text" name="nameofcl" class="form-control" placeholder="John Smith">
+			<input type="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="Your @mail">
+			<input type="submit" value="post comment" class="start">
+		</form>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="left copyright">
+				<ul>
+					<li><span class="item">Copyright &copy; 2015 <span class="white"> Waxom</span></span></li>
+					<li><span class="item">Privacy Policy</span></li>
+					<li><span class="item">FAQ</span></li>
+					<li><span class="item"><a href="#support">Support</a> </span></li>
+				</ul>
+			</div>
+			<div class="right copyright">
+				<ul>
+					<li>Designed by <span class="white">ThemeFire</span></li>
+					<li>Only on <span class="white">Envato Market</span></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/dom.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+.carousel-item-prev,
+.carousel-item-next,
+.carousel-item.active {
+    display:flex;
+}
+/* control image height */
+.card-img-top-250 {
+    max-height: 530px;
+    overflow:hidden;
+}
+/* smoother transitions */
+.carousel-inner>.carousel-item.next.left,
+.carousel-inner>.carousel-item.prev.right {
+    transition: all 1s ease;
+}
+.row .col-lg-12 h1{
+	font-size: 58px;
+	font-family: 'Raleway', sans-serif;
+	color: rgb(38,40,44);
+	font-weight: 900; 
+	text-align: center;
+	margin-top: 20px;
+}
+.row .col-lg-12 p {
+	font-size: 32px;
+	font-family: 'Raleway', sans-serif;
+	color: grey;
+	font-weight: 900; 
+	text-align: center;
+}
+.card h3 {
+	font-size: 27px;
+	font-family: 'Raleway', sans-serif;
+	color: rgb(63,48,40);
+	font-weight: 900; 
+	text-align: center;
+}
+.card p {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: brown;
+	text-align: center;
+}
+div.nav {
+	background-color: black;
+	height: 150px;
+	position: static;
+}
+.ourclients {
+	background: url(../img/bridge.jpg)
+	no-repeat center;
+	height: 500px;
+	box-shadow: 0 0 0 260px rgba(0,0,0,0.5) inset;
+	position: relative;
+	margin: 0 auto;
+}
+.comments {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.ourclients h2 {
+	font-size: 31px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	margin: 30px;
+}
+.column p {
+	color: white;
+	font-family: cursive;
+	font-size: 27px;
+	text-align: center;
+}
+.column span {
+	color: rgb(241,220,200);
+	text-align: center;
+	display: block;
+}
+@media only all and (max-width: 1000px) {
+.comments {
+	display: block;
+}
+.column p {
+	font-size: 20px;
+}
+}

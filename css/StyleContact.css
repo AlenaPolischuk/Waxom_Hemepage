@@ -1,0 +1,197 @@
+header {
+	max-width: 1920px;
+	max-height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+.nav {
+	position: absolute;
+	margin: 0;
+	top: 0; bottom: 0; left: 0; right: 0;
+}
+div.logo {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+div.menu {
+	position: absolute;
+	top: 50px;
+	right: 100px;
+}
+div.logo img, div.menu img {
+	float: left;
+}
+div.menu img {
+	margin-right: 5px;
+}
+div.menu img {
+	max-height: 56px;
+}
+div.logo span, div.menu span {
+	font-size: 34px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin-top: 7px;
+	display: inline-block;
+}
+#preloader img{
+	max-width: 100%;
+}
+#content {
+	display: none;
+}
+.contact {
+	display: grid;
+	grid-template-columns: 2fr 300px 3fr;
+}
+.contact h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	color: rgb(86,86,86);
+	margin-top: 60px;
+}
+.contact ul {
+	list-style-type: none;
+	padding: 0;
+}
+.contact input {
+	display: block;
+}
+.contact .grid-item1 ul li, .contact span {
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	color: rgb(86,86,86);
+	margin-top: 10px;
+}
+.contact .grid-item1 ul li.tochka::before {
+	content: url(../img/tochka.jpg);
+	margin-right: 40px;
+}
+.contact .grid-item1 ul li.tel::before {
+	content: url(../img/tel.jpg);
+	margin-right: 40px;
+}
+.contact .grid-item1 ul li.mail::before {
+	content: url(../img/mail.jpg);
+	margin-right: 40px;
+}
+.recentposts ul li {
+	position: relative;
+	float: left;
+	margin:5px; 
+}
+.recentposts ul li div.calendar {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.recentposts ul li div.calendar span.data {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: white;
+	border: 0;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background: rgb(57,57,57);
+	padding: 5px 10px;
+	text-align: center;
+	display: block;
+}
+.recentposts ul li div.calendar span.month {
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	border: 0;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: black;
+	padding: 2px 10px;
+	display: block;
+}
+.recentposts ul li:hover img {
+	filter: brightness(50%);
+}
+.recentposts ul li:hover > div {
+	background: rgb(55,51,49);
+}
+.recentposts ul li:hover div.calendar span.data {
+	background-color: rgb(192,176,153);
+}
+.recentposts ul li:hover div.calendar span.month {
+	background-color: rgb(156,149,114);
+}
+.recentposts ul li:hover > div h4, 
+.recentposts ul li:hover > div span {
+	color: rgb(185,170,147);
+}
+.recentposts ul li:hover > div p {
+	color: white;
+}
+.recentposts ul li > div {
+	width: 250px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(192,176,153,0.1);
+	margin-top: -5px;
+	padding: 30px 0 30px 30px; 
+}
+.recentposts ul li img {
+	max-width: 250px;
+}
+.recentposts ul li > div h4 {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 0 25px 0;
+	color: #555555;
+}
+.recentposts ul li > div span {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #c0b099;
+}
+.recentposts ul li > div span.rm:after {
+	content: url(../img/readmore.png);
+	margin-left: 10px;
+}
+.reply h2{
+	font-size: 42px;
+	font-family: 'Raleway', sans-serif;
+	color: grey;
+}
+.reply textarea {
+	width: 100%
+}
+.reply input {
+	width: 100%;
+	margin-top: 20px; 
+}
+.reply .start {
+	text-transform: uppercase;
+	background-color: rgb(146,133,117);
+	color: white;
+	width: 170px;
+	height: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px; 
+	font-weight: bold;
+	border-radius: 5px;
+	border-left-color: rgb(146,133,117);
+	border-top-color: rgb(146,133,117);
+	box-shadow: 0 -3px rgb(110,99,88) inset;
+	transition: 0.2s;
+	display: block;
+	margin-top: 20px;
+}
+@media only all and (max-width: 1000px) {
+
+.contact {
+	display: block;
+}
+}
+
+
+
+
+
+

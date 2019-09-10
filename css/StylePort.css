@@ -1,0 +1,67 @@
+.bigone {
+	margin-top: 100px;
+	position: relative;
+}
+.variants {
+	width: 650px;
+	float: left;
+	margin-right: 70px;
+	margin-bottom: 25px;
+}
+.textport {
+	width: 450px;
+	float: left;
+}
+.strict h3 {
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(82,55,47);
+	padding: 10px;
+}
+.strict p {
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(82,55,47);
+	padding: 10px;
+}
+table {
+	width: 450px;
+}
+.relatedproj {
+	display: none;
+}
+@media only all and (max-width: 1285px) {
+.variants {
+	float: none;
+	margin: 0 auto;
+}
+.textport {
+	min-width: 100%;
+}
+table {
+	margin-left: 40px;
+	float: left;
+}
+.relatedproj {
+	position: relative;
+	display: block;
+	float: right;
+	margin: 30px 40px 0 0;
+}
+.relatedproj a {
+	text-decoration: none;
+}
+.relatedproj img {
+	margin: 0 auto;
+	display: block;
+}
+.relatedproj:hover img {
+	transform: rotate(1080deg);
+	transition: transform 0.5s;
+}
+@media only all and (max-width: 900px) {
+.relatedproj {
+	display: none;
+}
+}

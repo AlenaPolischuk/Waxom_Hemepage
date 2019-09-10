@@ -1,0 +1,73 @@
+html {
+	min-width: 320px;
+	scroll-behavior: smooth;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	box-sizing: border-box;
+}
+*, body
+    {
+        -webkit-text-size-adjust: none;
+    }
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 10px;
+}
+footer {
+	background-color: black;
+	height: 130px;
+	max-width: 1920px;
+	padding-top: 35px;
+	padding-bottom: 1px;
+}
+footer .left {
+	float: left;
+}
+footer .right {
+	float: right;
+	border: solid 1px transparent; 
+}
+.copyright ul li {
+	float: left;
+}
+.copyright ul {
+	margin: 0; 
+	list-style: none;
+	padding: 0;
+}
+.copyright ul li, .copyright ul li a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	color: rgb(86,86,86);
+}
+.copyright ul li span.white {
+	color: white;
+}
+.copyright ul li:not(:last-child)::after {
+	content: "I";
+	margin: 13px;
+	font-family: sans-serif;
+	font-size: 20px; 
+}
+.copyright ul li:hover span.item, .copyright ul li:hover a {
+	color: rgb(192,177,153);
+}
